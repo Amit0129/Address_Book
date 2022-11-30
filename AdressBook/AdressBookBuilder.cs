@@ -30,8 +30,9 @@ namespace AdressBook
                 Console.WriteLine($"Contact details State :: {item.Value.state} Key Is {item.Key}");
                 Console.WriteLine($"Contact details Zip :: {item.Value.zip} Key Is {item.Key}");
                 Console.WriteLine($"Contact details Phone Number :: {item.Value.phoneNumber} Key Is {item.Key}");
-                Console.WriteLine($"Contact details Phone Number :: {item.Value.eMail} Key Is {item.Key}");
+                Console.WriteLine($"Contact details Email Adress :: {item.Value.eMail} Key Is {item.Key}");
             }
         }
+        
     }
 }
