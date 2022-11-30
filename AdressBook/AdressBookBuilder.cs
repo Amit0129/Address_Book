@@ -82,7 +82,17 @@ namespace AdressBook
                 }
             }
         }
-        
+        public void RemoveContact(string key)
+        {
+            foreach (var item in addressBookMap)
+            {
+                if (item.Key == key)
+                {
+                    addressBookMap.Remove(item.Key);
+                }
+            }
+        }
+
 
     }
 }
